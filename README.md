@@ -32,6 +32,9 @@ This project aims to develop an advanced AI-based electricity demand forecasting
 - **Tools**: Jupyter Notebook, Power BI/Tableau, Flask/FastAPI
 - **Deployment Platforms**: AWS, GCP, or Azure
 
+![image](https://github.com/user-attachments/assets/b1d9f8bb-5646-4795-8210-513000ef3806)
+
+
 ## Potential Challenges
 - **Data Quality Issues**: Inconsistent data may result in inaccurate forecasts.
 - **Model Accuracy**: Handling variable load patterns can be difficult.

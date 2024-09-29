@@ -1,72 +1,70 @@
-# PowerCast-AI-Powered-Electricity-Demand-Forecasting-System
-Here’s a professional README file based on the content of the PDF you provided:
+# Getting Started with Create React App
 
----
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-# AI-Powered Electricity Demand Forecasting System
+## Available Scripts
 
-## Overview
-This project aims to develop an advanced AI-based electricity demand forecasting model, addressing key challenges in predicting electricity consumption and peak load in Delhi. The model leverages historical data, AI techniques, and dynamic adaptability to enhance power purchase and distribution planning.
+In the project directory, you can run:
 
-## Key Features
-- **Data Integration**: Aggregates historical load data, weather, holiday, and urban development data.
-- **AI Model Development**: Utilizes machine learning algorithms, including time-series forecasting, regression models, and neural networks (LSTM), to predict demand patterns.
-- **Peak Load Forecasting**: Incorporates peak load prediction for more accurate power procurement strategies.
-- **Compensation Methodology**: Adjusts forecasts for real-time fluctuations using advanced algorithms.
+### `npm start`
 
-## How It Solves the Problem
-- **Accurate Forecasting**: Ensures alignment between power procurement and actual electricity demand.
-- **Dynamic Adaptability**: Handles fluctuations in demand, considering factors like holidays and urban development.
-- **Holistic Approach**: Provides a comprehensive forecast that factors in seasonal and daily variations for better planning.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-## Technical Approach
-1. **Data Collection**: Historical load data, weather conditions, and holiday information.
-2. **Data Preprocessing**: Data cleaning, feature engineering, and model training.
-3. **Model Development**: Start with baseline models (Linear Regression, ARIMA), then advance to LSTM and ensemble methods.
-4. **Model Training & Evaluation**: Optimize using RMSE, MAE, MAPE.
-5. **Model Deployment**: API-based real-time predictions and a visualization dashboard for monitoring.
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-## Technologies Used
-- **Languages**: Python
-- **Frameworks**: TensorFlow, PyTorch, Scikit-learn, Statsmodels
-- **Tools**: Jupyter Notebook, Power BI/Tableau, Flask/FastAPI
-- **Deployment Platforms**: AWS, GCP, or Azure
+### `npm test`
 
-![image](https://github.com/user-attachments/assets/b1d9f8bb-5646-4795-8210-513000ef3806)
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
+### `npm run build`
 
-## Potential Challenges
-- **Data Quality Issues**: Inconsistent data may result in inaccurate forecasts.
-- **Model Accuracy**: Handling variable load patterns can be difficult.
-- **System Integration**: Integrating with existing power systems may cause temporary disruptions.
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-## Impact
-1. **Residential Users**: More reliable and stable power supply with lower costs.
-2. **Commercial & Industrial Users**: Consistent power and reduced operational costs.
-3. **Environmental**: Enhanced integration of renewable energy and reduction in carbon emissions.
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-## How to Run
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/username/AI-Powered-Electricity-Demand-Forecasting-System.git
-   ```
-2. Install required libraries:
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. Run the model:
-   ```bash
-   python main.py
-   ```
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-## Team
-- **Team Name**: FLUX
-- **Theme**: Smart Automation  
-- **Category**: Software
+### `npm run eject`
 
-## References
-- "Electricity Demand Forecasting Using Machine Learning Techniques"
-- "A Review of Big Data Analytics for Smart Grid Applications"
-- International Energy Agency (IEA) Reports
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
----
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
